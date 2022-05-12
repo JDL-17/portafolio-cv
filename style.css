@@ -490,7 +490,7 @@
     border-top: thin solid var(--first-color);
     border-bottom: thin solid var(--first-color);
     margin: 2rem auto;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     width: 250px;
     text-align: center;
     color: var(--title-color);
@@ -518,7 +518,7 @@
   @media screen and (min-width: 1024px) {
     .full-lg-screen {
       width: 100%;
-      min-height: 100vh;      
+      min-height: 100vh;
     }
   
     .text-lg-center {
@@ -541,9 +541,11 @@
 
   
   .contact-card {
-    margin: 1rem 2rem;
+    
+    margin: 1rem 1rem;
     padding: 1rem;
-    width: 100%;
+    width: 95%;
+    min-width: 240px;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -684,7 +686,7 @@
   }
   
   .social-media a {
-    padding: 0 0.4rem;
+    padding: 0.1rem 0.5rem;
     text-decoration: none;
   }
   
@@ -697,7 +699,7 @@
   @media screen and (min-width: 768px) {
     .contact-cards {
       display: grid;
-      grid-template-columns: repeat(2, 48%);
+      grid-template-columns: repeat(2, 50%);
       justify-content: space-between;
     }
   
