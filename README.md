@@ -1,1 +1,1 @@
-#Portfolia Programador Jorge De Luca
+#Portafolio Jorge De Luca - Desarrollador de Sofware/Ingeniero electrónico.
